@@ -9,13 +9,13 @@ public class Main {
 
         // Creamos una instancia de la clase Campos con valor inicial 0
 
-        Campos campos = new Campos(0);
+        Campos campo1 = new Campos(0);
 
         // Incrementamos el valor de x
-        campos.incrementa();
+        campo1.incrementa();
 
         // Mostramos el valor actual de x
-        System.out.println(campos.muestra());
+        System.out.println(campo1.muestra());
     }
 
 
